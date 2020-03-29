@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ifytops-v2/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Ifytops-v2/static/js/main.8581bb4e.chunk.js",
+    "main.js.map": "/Ifytops-v2/static/js/main.8581bb4e.chunk.js.map",
+    "runtime-main.js": "/Ifytops-v2/static/js/runtime-main.df28f7b8.js",
+    "runtime-main.js.map": "/Ifytops-v2/static/js/runtime-main.df28f7b8.js.map",
+    "static/js/2.37457559.chunk.js": "/Ifytops-v2/static/js/2.37457559.chunk.js",
+    "static/js/2.37457559.chunk.js.map": "/Ifytops-v2/static/js/2.37457559.chunk.js.map",
+    "index.html": "/Ifytops-v2/index.html",
+    "precache-manifest.eda9a9abdad0803b506b41217689a95c.js": "/Ifytops-v2/precache-manifest.eda9a9abdad0803b506b41217689a95c.js",
+    "service-worker.js": "/Ifytops-v2/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Ifytops-v2/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.37457559.chunk.js.LICENSE.txt": "/Ifytops-v2/static/js/2.37457559.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Ifytops-v2/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df28f7b8.js",
+    "static/js/2.37457559.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8581bb4e.chunk.js"
+  ]
+}
