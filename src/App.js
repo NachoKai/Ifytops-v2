@@ -1,26 +1,36 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/style.css';
+import './styles/normalize.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavLeft from './components/nav-left';
+import NavUp from './components/nav-up';
+import NavMidA from './components/nav-mid-a';
+import NavMidB from './components/nav-mid-b';
+import NavLow from './components/nav-low';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="container-fluid" id="container">
+			<Row>
+				<Col lg={2}>
+					<NavLeft />
+				</Col>
+				<Col lg={10}>
+					<NavUp />
+					<NavMidA />
+					<NavMidB />
+				</Col>
+			</Row>
+			<Row>
+				<Col lg={12}>
+					<NavLow />
+				</Col>
+			</Row>
+		</div>
+	);
 }
 
 export default App;

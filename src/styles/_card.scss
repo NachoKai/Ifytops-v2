@@ -1,0 +1,118 @@
+.card-inside {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    order: 3;
+}
+
+.canciones {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.data-album {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-temas {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-low {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+.canciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-album {
+    font-weight: bold;
+    font-size: 2rem;
+    color: $text-color;
+    padding-bottom: 0.5rem;
+}
+
+.titulo-artista {
+    font-weight: lighter;
+    font-size: 1rem;
+    color: $text-sub-color;
+    padding-bottom: 1rem;
+
+    &:hover {
+        text-decoration: underline;
+        color: $text-color;
+        cursor: pointer;
+    }
+}
+
+.repro-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $reprod-btn;
+    color: $text-color;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 170px;
+    height: 35px;
+    margin-bottom: 1rem;
+
+    &:hover {
+        transform: translateY(-2px);
+        cursor: pointer;
+    }
+
+    &:active {
+        transform: translateY(1px);
+    }
+}
+
+.data-icons {
+    display: flex;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.album-tapa {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.tema {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+
+    &:hover{
+        background-color: $background-card;
+    }
+}
+
+.art-song {
+    display: flex;
+    flex-direction: column;
+}
+
+.artista-card{
+    margin-left: 20px;
+}

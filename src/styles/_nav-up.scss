@@ -1,0 +1,153 @@
+.nav-up {
+	flex-wrap: wrap;
+	height: 65px;
+	padding: 0.9rem;
+	display: flex;
+	justify-content: space-between;
+	grid-template-columns: 2fr 0.5fr 0.5fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'up-a up-b up-c';
+	grid-area: nav-up;
+
+	.flechas {
+		align-items: center;
+		display: flex;
+
+		.fas {
+			max-width: 27px;
+			margin: 0rem 1rem 0rem 1rem;
+			font-size: 1.7rem;
+			color: $text-sub-color;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	.premium {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		letter-spacing: 3px;
+		width: 150px;
+		height: 38px;
+		border: 2px solid $text-color;
+		border-radius: 30px;
+		padding: 10px;
+		text-align: center;
+
+		&:hover {
+			cursor: pointer;
+			transform: translateY(-2px);
+			color: $text-color;
+			text-decoration: none;
+		}
+
+		&:active {
+			transform: translateY(1px);
+			text-decoration: none;
+		}
+	}
+
+	.user {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: $user-backg;
+		border-radius: 30px;
+		width: 160px;
+		height: 35px;
+		padding: 10px;
+
+		&:hover {
+			background-color: $user-hover-backg;
+			cursor: pointer;
+		}
+
+		.user-link {
+			color: $text-color;
+			font-size: 0.9rem;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+
+	.avatar {
+		width: 25px;
+		border-radius: 30px;
+	}
+}
+
+.up-left {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.up-a {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 10px 0 10px;
+	grid-area: up-a;
+}
+
+.up-b {
+	margin: 0 10px 0 10px;
+
+	a {
+		font-size: 0.8rem;
+		color: $text-color;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	grid-area: up-b;
+}
+
+.up-c {
+	grid-area: up-c;
+}
+
+.premium-link {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.buscador {
+	display: flex;
+	align-items: center;
+
+	i {
+		position: relative;
+		left: 35px;
+		font-size: 1.5rem;
+		color: $text-sub-color;
+	}
+}
+
+.buscador-input {
+	width: 300px;
+	height: 40px;
+	border-radius: 30px;
+	border: none;
+	font-size: 0.9rem;
+	padding-left: 40px;
+}
+
+.biblio-links {
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.biblio-link {
+	padding: 0 0.5rem 0 0.5rem;
+	font-size: 1.2rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+}

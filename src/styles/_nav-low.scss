@@ -1,0 +1,99 @@
+.nav-low {
+    min-height: 90px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-card;
+    grid-area: nav-low;
+}
+
+.low-a {
+    height: 80px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+    display: flex;
+}
+
+.low-b {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.artist-low {
+    display: flex;
+    flex-direction: column;
+}
+
+.reprod {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.duration {
+    height: 30px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mini {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tools {
+    height: 85px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon {
+    font-size: 0.9rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: $text-sub-color;
+
+    &:hover {
+        color: $text-color;
+        cursor: pointer;
+    }
+}
+
+.play {
+    font-size: 2rem;
+}
+
+input#vol {
+    width: 100px;
+}
+
+.icon-hearth {
+    color: $text-sub-color;
+
+    &:hover {
+        cursor: pointer;
+        color: $text-color;
+    }
+}
+
+.icon-window {
+    color: $text-sub-color;
+
+    &:hover {
+        cursor: pointer;
+        color: $text-color;
+    }
+}
