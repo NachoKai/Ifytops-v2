@@ -1,5 +1,5 @@
 # Ifytops - Spotify Evil Twin Brother
-## [Live Demo](https://nachokai.github.io/Ifytops/)  
+## [Live Demo](https://nachokai.github.io/Ifytops-v2/)  
 • HTML  
 • CSS (Scss)  
 • Bootstrap  
