@@ -1,181 +1,182 @@
 .nav-left {
-    height: 700px;
-    min-width: 250px;
-    padding: 10px;
-    background-color: $background-nav;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.9fr 0.7fr 2fr;
-    grid-template-areas: "logo""left-b""left-c""left-d";
-    grid-area: nav-left;
+	height: 700px;
+	min-width: 250px;
+	padding: 10px;
+	background-color: $background-nav;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.4fr 0.9fr 0.7fr 2fr;
+	grid-template-areas: 'logo' 'left-b' 'left-c' 'left-d';
+	grid-area: nav-left;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 1.6rem;
-    font-weight: bold;
-    padding: 1.5rem;
-    grid-area: logo;
+	color: $text-sub-color;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 1.5rem;
+	grid-area: logo;
 
-    &:hover {
-        cursor: pointer;
-    }
+	&:hover {
+		cursor: pointer;
+	}
 
-    .fab {
-        padding-right: 10px;
-        font-size: 2.6rem;
-    }
+	.fab {
+		padding-right: 10px;
+		font-size: 2.6rem;
+	}
 }
 
 .left-b {
-    padding: 0px;
+	padding: 0px;
 
-    .selected {
-        width: 100%;
-        background-color: $selected-backg;
-        border-radius: 4px;
-        color: $text-color;
+	.selected {
+		width: 100%;
+		background-color: $selected-backg;
+		border-radius: 4px;
+		color: $text-color;
 
-        a {
-            text-decoration: none;
-            font-weight: bold;
-            color: $text-color;
-        }
-    }
+		a {
+			text-decoration: none;
+			font-weight: bold;
+			color: $text-color;
+		}
+	}
 
-    a {
-        text-decoration: none;
-        font-weight: bold;
-        color: $text-sub-color;
+	a {
+		text-decoration: none;
+		font-weight: bold;
+		color: $text-sub-color;
 
-        &:hover {
-            cursor: pointer;
-            color: $text-color;
-            text-decoration: none;
-        }
-    }
+		&:hover {
+			cursor: pointer;
+			color: $text-color;
+			text-decoration: none;
+		}
+	}
 
-    .fas {
-        margin-right: 10px;
-        font-size: 1.4rem;
-    }
+	.fas {
+		margin-right: 10px;
+		font-size: 1.4rem;
+	}
 
-    grid-area: left-b;
+	grid-area: left-b;
 }
 
 .nav-links {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    height: 40px;
-    font-size: 1rem;
-    color: $text-sub-color;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	height: 40px;
+	font-size: 1rem;
+	color: $text-sub-color !important;
 
-    .fas {
-        font-size: 1.1rem;
-    }
+	.fas {
+		font-size: 1.1rem;
+	}
 
-    a:hover {
-        color: $text-color;
-        text-decoration: none;
-    }
+	a:hover {
+		color: $text-color;
+		text-decoration: none;
+	}
 
-    &:hover {
-        color: $text-color;
-        text-decoration: none;
-    }
+	&:hover {
+		color: $text-color;
+		text-decoration: none;
+	}
 }
 
 .nav-links-playlist {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 8px 0 8px 0;
-    color: $text-sub-color;
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	font-weight: 500;
+	margin: 8px 0 8px 0;
+	color: $text-sub-color;
 
-    &:hover {
-        cursor: pointer;
-        color: $text-color;
-        text-decoration: none;
-    }
+	&:hover {
+		cursor: pointer;
+		color: $text-color;
+		text-decoration: none;
+	}
 }
 
 .left-c {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 
-    a {
-        text-decoration: none;
-        font-weight: bold;
-        color: $text-sub-color;
+	a {
+		text-decoration: none;
+		font-weight: bold;
+		color: $text-sub-color;
 
-        &:hover {
-            cursor: pointer;
-            color: $text-color;
-        }
-    }
+		&:hover {
+			cursor: pointer;
+			color: $text-color;
+		}
+	}
 
-    .fas,
-    .fab {
-        margin-right: 10px;
-        font-size: 1.8rem;
-    }
+	.fas,
+	.fab {
+		margin-right: 10px;
+		font-size: 1.8rem;
+	}
 
-    .playlist-title {
-        font-size: 0.8rem;
-        margin: 15px 50px 5px 15px;
-        color: $text-sub-color;
-    }
+	.playlist-title {
+		font-size: 0.8rem;
+		margin: 15px 50px 5px 15px;
+		color: $text-sub-color;
+	}
 
-    ul {
-        li {
-            a {
-                display: flex;
-                align-items: center;
-            }
-        }
+	ul {
+		li {
+			a {
+				display: flex;
+				align-items: center;
+			}
+		}
 
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 
-    grid-area: left-c;
+	grid-area: left-c;
 }
 
 .left-d {
-    li {
-        padding: 3px;
-        padding-left: 10px;
-    }
+	li {
+		padding: 3px;
+		padding-left: 10px;
+	}
 
-    a {
-        text-decoration: none;
-        color: $text-sub-color;
+	a {
+		text-decoration: none;
+		color: $text-sub-color;
 
-        &:hover {
-            cursor: pointer;
-            color: $text-color;
-            text-decoration: none;
-        }
-    }
+		&:hover {
+			cursor: pointer;
+			color: $text-color;
+			text-decoration: none;
+		}
+	}
 
-    grid-area: left-d;
+	grid-area: left-d;
 }
 
 .install {
-    margin-left: 20px;
+	margin-left: 20px;
 
-    i {
-        margin-right: 0px;
-    }
+	i {
+		margin-right: 0px;
+	}
 }
 
 .left-c .fas,
 .left-c .fab {
-    max-width: 25px;
+	max-width: 25px;
 }

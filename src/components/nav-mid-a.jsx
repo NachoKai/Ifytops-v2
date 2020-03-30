@@ -1,4 +1,6 @@
 import React from 'react';
+import Card from './card';
+
 function NavMidA(props) {
 	return (
 		<div className="nav-mid-a" id="nav-mid-a">
@@ -49,41 +51,42 @@ function NavMidA(props) {
 					<div className="super-title">Tus Me Gusta</div>
 					<div className="super-subtitle">725 tus me gusta</div>
 				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
-				<div className="cards">
-					<img src="https://picsum.photos/130" alt="" className="album-cover" />
-					<div className="album-title">Album Title</div>
-					<div className="album-subtitle">Artist</div>
-				</div>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/130"
+				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/131"
+				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/132"
+				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/133"
+				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/134"
+				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/135"
+				/>
 			</div>
 		</div>
 	);
