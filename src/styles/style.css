@@ -451,13 +451,8 @@ input#vol {
   font-size: 1.1rem;
 }
 
-.nav-links a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .nav-links:hover {
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -1292,8 +1287,8 @@ input#vol {
   margin: 0;
   outline: 0;
   padding: 0;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

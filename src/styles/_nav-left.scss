@@ -78,13 +78,8 @@
 		font-size: 1.1rem;
 	}
 
-	a:hover {
-		color: $text-color;
-		text-decoration: none;
-	}
-
 	&:hover {
-		color: $text-color;
+		color: $text-color !important;
 		text-decoration: none;
 	}
 }

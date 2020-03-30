@@ -87,6 +87,12 @@ function NavMidA(props) {
 					albumAlt="Album Alt"
 					albumImg="https://picsum.photos/135"
 				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/136"
+				/>
 			</div>
 		</div>
 	);

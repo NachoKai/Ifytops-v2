@@ -14,37 +14,43 @@ function NavMidB(props) {
 					artist="Artist"
 					albumTitle="Album Title"
 					albumAlt="Album Alt"
-					albumImg="https://picsum.photos/130"
+					albumImg="https://picsum.photos/142"
 				/>
 				<Card
 					artist="Artist"
 					albumTitle="Album Title"
 					albumAlt="Album Alt"
-					albumImg="https://picsum.photos/131"
+					albumImg="https://picsum.photos/137"
 				/>
 				<Card
 					artist="Artist"
 					albumTitle="Album Title"
 					albumAlt="Album Alt"
-					albumImg="https://picsum.photos/132"
+					albumImg="https://picsum.photos/138"
 				/>
 				<Card
 					artist="Artist"
 					albumTitle="Album Title"
 					albumAlt="Album Alt"
-					albumImg="https://picsum.photos/133"
+					albumImg="https://picsum.photos/139"
 				/>
 				<Card
 					artist="Artist"
 					albumTitle="Album Title"
 					albumAlt="Album Alt"
-					albumImg="https://picsum.photos/134"
+					albumImg="https://picsum.photos/140"
 				/>
 				<Card
 					artist="Artist"
 					albumTitle="Album Title"
 					albumAlt="Album Alt"
-					albumImg="https://picsum.photos/135"
+					albumImg="https://picsum.photos/141"
+				/>
+				<Card
+					artist="Artist"
+					albumTitle="Album Title"
+					albumAlt="Album Alt"
+					albumImg="https://picsum.photos/143"
 				/>
 			</div>
 		</div>

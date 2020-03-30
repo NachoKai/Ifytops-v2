@@ -10,7 +10,6 @@ import NavMidB from './components/nav-mid-b';
 import NavLow from './components/nav-low';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Card from './components/card';
 
 function App() {
 	return (
