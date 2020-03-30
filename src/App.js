@@ -15,17 +15,17 @@ function App() {
 	return (
 		<div className="container-fluid" id="container">
 			<Row>
-				<Col lg={2}>
+				<Col xl={2}>
 					<NavLeft />
 				</Col>
-				<Col lg={10}>
+				<Col xl={10}>
 					<NavUp />
 					<NavMidA />
 					<NavMidB />
 				</Col>
 			</Row>
 			<Row>
-				<Col lg={12}>
+				<Col xl={12}>
 					<NavLow />
 				</Col>
 			</Row>
