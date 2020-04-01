@@ -861,12 +861,7 @@ input#vol {
 }
 
 .card-inside {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  place-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -895,12 +890,7 @@ input#vol {
 }
 
 .data-album {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  place-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -912,12 +902,7 @@ input#vol {
 
 .data-temas {
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  place-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -928,12 +913,7 @@ input#vol {
 }
 
 .data-low {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  place-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -974,12 +954,7 @@ input#vol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  place-items: center;
   background-color: #1ed760;
   color: #ffffff;
   border-radius: 30px;
