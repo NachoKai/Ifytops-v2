@@ -1,16 +1,16 @@
 ::-webkit-scrollbar {
-	width: 15px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-	background: $background-nav;
+  background: $background-nav;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: $scrollbar-backg;
+  background: $scrollbar-backg;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	cursor: pointer;
-	background: $scrollbar-backg;
+  cursor: pointer;
+  background: $scrollbar-backg;
 }

@@ -1,113 +1,113 @@
 .card-inside {
-	place-items: center;
-	display: flex;
-	padding: 1rem;
-	order: 3;
+  place-items: center;
+  display: flex;
+  padding: 1rem;
+  order: 3;
 }
 
 .canciones {
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
 }
 
 .data-album {
-	place-items: center;
-	display: flex;
-	flex-direction: column;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .data-temas {
-	width: 100%;
-	place-items: center;
-	display: flex;
-	flex-direction: column;
+  width: 100%;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .data-low {
-	place-items: center;
-	display: flex;
-	padding: 5px;
+  place-items: center;
+  display: flex;
+  padding: 5px;
 }
 
 .canciones {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .titulo-album {
-	font-weight: bold;
-	font-size: 2rem;
-	color: $text-color;
-	padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: $text-color;
+  padding-bottom: 0.5rem;
 }
 
 .titulo-artista {
-	font-weight: lighter;
-	font-size: 1rem;
-	color: $text-sub-color;
-	padding-bottom: 1rem;
+  font-weight: lighter;
+  font-size: 1rem;
+  color: $text-sub-color;
+  padding-bottom: 1rem;
 
-	&:hover {
-		text-decoration: underline;
-		color: $text-color;
-		cursor: pointer;
-	}
+  &:hover {
+    text-decoration: underline;
+    color: $text-color;
+    cursor: pointer;
+  }
 }
 
 .repro-btn {
-	display: flex;
-	place-items: center;
-	background-color: $reprod-btn;
-	color: $text-color;
-	border-radius: 30px;
-	padding: 1rem;
-	width: 170px;
-	height: 35px;
-	margin-bottom: 1rem;
+  display: flex;
+  place-items: center;
+  background-color: $reprod-btn;
+  color: $text-color;
+  border-radius: 30px;
+  padding: 1rem;
+  width: 170px;
+  height: 35px;
+  margin-bottom: 1rem;
 
-	&:hover {
-		transform: translateY(-2px);
-		cursor: pointer;
-	}
+  &:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
 
-	&:active {
-		transform: translateY(1px);
-	}
+  &:active {
+    transform: translateY(1px);
+  }
 }
 
 .data-icons {
-	display: flex;
-	font-size: 1.5rem;
-	padding-bottom: 0.5rem;
+  display: flex;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .album-tapa {
-	width: 100%;
-	height: auto;
-	padding-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
 }
 
 .tema {
-	align-items: center;
-	justify-content: space-between;
-	display: flex;
-	width: 100%;
-	padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
 
-	&:hover {
-		background-color: $background-card;
-	}
+  &:hover {
+    background-color: $background-card;
+  }
 }
 
 .art-song {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .artista-card {
-	margin-left: 20px;
+  margin-left: 20px;
 }

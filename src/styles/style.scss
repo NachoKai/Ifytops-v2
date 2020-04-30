@@ -1,53 +1,53 @@
-@import './variables';
-@import './nav-up';
-@import './nav-low';
-@import './nav-left';
-@import './nav-mid';
-@import './fonts';
-@import './scrollbar';
-@import './sliders';
-@import './card';
-@import './mediaqueries';
+@import "./variables";
+@import "./nav-up";
+@import "./nav-low";
+@import "./nav-left";
+@import "./nav-mid";
+@import "./fonts";
+@import "./scrollbar";
+@import "./sliders";
+@import "./card";
+@import "./mediaqueries";
 
 * {
-	box-sizing: border-box;
-	font-family: 'Circular Std', sans-serif;
-	margin: 0;
-	outline: 0;
-	padding: 0;
-	transition: all 0.1s ease;
-	user-select: none;
+  box-sizing: border-box;
+  font-family: "Circular Std", sans-serif;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  transition: all 0.1s ease;
+  user-select: none;
 }
 
 html,
 body,
 .container-fluid,
 #container {
-	background-color: $background;
+  background-color: $background;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
 
 button:focus {
-	outline: 0;
+  outline: 0;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .grid-container {
-	height: 790px;
-	color: $text-color;
-	display: grid;
-	grid-template-columns: 0.8fr 1.2fr 1fr 1fr;
-	grid-template-rows: 0.3fr 1.5fr 1.7fr 0.5fr;
-	grid-template-areas: 'nav-left nav-up nav-up nav-up' 'nav-left nav-mid-a nav-mid-a nav-mid-a' 'nav-left nav-mid-b nav-mid-b nav-mid-b' 'nav-low nav-low nav-low nav-low';
+  height: 790px;
+  color: $text-color;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1.5fr 1.7fr 0.5fr;
+  grid-template-areas: "nav-left nav-up nav-up nav-up" "nav-left nav-mid-a nav-mid-a nav-mid-a" "nav-left nav-mid-b nav-mid-b nav-mid-b" "nav-low nav-low nav-low nav-low";
 }
 
 .container-fluid {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }

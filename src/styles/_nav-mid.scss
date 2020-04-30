@@ -1,141 +1,144 @@
 .nav-mid-a {
-	height: 310px;
-	padding: 1.5rem;
-	padding-top: 5px;
-	padding-right: 0px;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.3fr 1.7fr;
-	grid-template-areas: 'mid-a-up' 'mid-a-down';
-	grid-area: nav-mid-a;
+  height: 310px;
+  padding: 1.5rem;
+  padding-top: 5px;
+  padding-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  grid-template-areas: "mid-a-up" "mid-a-down";
+  grid-area: nav-mid-a;
 }
 
 .mid-a-up {
-	grid-area: mid-a-up;
+  grid-area: mid-a-up;
 }
 
 .mid-a-down {
-	overflow-y: hidden;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	grid-area: mid-a-down;
-	min-height: 260px;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: mid-a-down;
+  min-height: 260px;
 }
 
 .nav-mid-b {
-	height: 320px;
-	padding: 1.5rem;
-	display: grid;
-	padding-right: 0px;
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.3fr 1.7fr;
-	grid-template-areas: 'mid-b-up' 'mid-b-down';
-	grid-area: nav-mid-b;
+  height: 320px;
+  padding: 1.5rem;
+  display: grid;
+  padding-right: 0px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  grid-template-areas: "mid-b-up" "mid-b-down";
+  grid-area: nav-mid-b;
 }
 
 .mid-b-up {
-	grid-area: mid-b-up;
+  grid-area: mid-b-up;
 }
 
 .mid-b-down {
-	overflow-y: hidden;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	grid-area: mid-b-down;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: mid-b-down;
 }
 
 .cards {
-	background-color: $background-card;
-	padding: 1rem;
-	margin: 0 0.5rem 0 0.5rem;
-	height: 220px;
-	width: 160px;
-	border-radius: 10px;
-	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: $background-card;
+  padding: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+  height: 220px;
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
-	&:hover {
-		cursor: pointer;
-	}
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .super-card {
-	background: $supercard-backg;
-	background-image: $supercard-backg;
-	padding: 1rem;
-	margin: 0 0.5rem 0 0.5rem;
-	height: 220px;
-	min-width: 320px;
-	line-height: 2;
-	border-radius: 10px;
-	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background: $supercard-backg;
+  background-image: $supercard-backg;
+  padding: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+  height: 220px;
+  min-width: 320px;
+  line-height: 2;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
-	&:hover {
-		cursor: pointer;
-	}
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .super-artists {
-	color: $text-sub-color;
-	font-size: 1rem;
+  color: $text-sub-color;
+  font-size: 1rem;
 }
 
 .super-title {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .super-subtitle {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 .playlist-list {
-	max-height: 300px;
-	overflow-y: scroll;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .title {
-	font-size: 1.8rem;
-	color: $text-color;
-	font-weight: bold;
-	width: 360px;
+  font-size: 1.8rem;
+  color: $text-color;
+  font-weight: bold;
+  width: 360px;
 
-	&:hover {
-		cursor: pointer;
-		text-decoration: underline;
-	}
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
 
 .title-low {
-	&:hover {
-		cursor: pointer;
-		text-decoration: underline;
-	}
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
 
 .album-title {
-	color: $text-color;
-	font-weight: bold;
+  color: $text-color;
+  font-weight: bold;
 }
 
 .album-subtitle {
-	font-size: 0.9rem;
-	color: $text-sub-color;
+  font-size: 0.9rem;
+  color: $text-sub-color;
 
-	&:hover {
-		cursor: pointer;
-		text-decoration: underline;
-	}
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
 
 .album-cover {
-	padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .album-mini {
-	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
-	&:hover {
-		cursor: pointer;
-	}
+  &:hover {
+    cursor: pointer;
+  }
 }
