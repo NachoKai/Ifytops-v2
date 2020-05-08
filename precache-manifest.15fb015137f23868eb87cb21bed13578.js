@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e387c0e99379b7d51e7a21a093173504",
+    "revision": "740f423b28dbd16d529d851188b62bae",
     "url": "/Ifytops-v2/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ifytops-v2/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "5a486f4004b152d61607",
-    "url": "/Ifytops-v2/static/css/main.b8c0f534.chunk.css"
+    "revision": "283e11d7ae000fd60b1c",
+    "url": "/Ifytops-v2/static/css/main.fdcd6177.chunk.css"
   },
   {
     "revision": "52a86fd6bceb552dcbec",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ifytops-v2/static/js/2.76dc1e97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a486f4004b152d61607",
-    "url": "/Ifytops-v2/static/js/main.5fee36ac.chunk.js"
+    "revision": "283e11d7ae000fd60b1c",
+    "url": "/Ifytops-v2/static/js/main.9a718b10.chunk.js"
   },
   {
     "revision": "597ab199100adf937a92",
