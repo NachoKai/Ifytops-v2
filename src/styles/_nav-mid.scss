@@ -15,6 +15,7 @@
 }
 
 .mid-a-down {
+  scroll-snap-type: x mandatory;
   overflow-y: hidden;
   display: flex;
   justify-content: space-between;
@@ -39,6 +40,7 @@
 }
 
 .mid-b-down {
+  scroll-snap-type: x mandatory;
   overflow-y: hidden;
   display: flex;
   justify-content: space-between;
@@ -47,6 +49,8 @@
 }
 
 .cards {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
   background-color: $background-card;
   padding: 1rem;
   margin: 0 0.5rem 0 0.5rem;
