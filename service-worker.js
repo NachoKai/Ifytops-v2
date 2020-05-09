@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ifytops-v2/precache-manifest.15fb015137f23868eb87cb21bed13578.js"
+  "/Ifytops-v2/precache-manifest.30af1ba705c4851cb03a2a0d229e3e1f.js"
 );
 
 self.addEventListener('message', (event) => {
